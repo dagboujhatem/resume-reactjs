@@ -1,1 +1,19 @@
 // Here you can add other styles
+
+// implimentation of react dark mode theme
+// link : https://dev.to/cmcwebcode40/simple-react-dark-mode-with-scss-lae
+
+$bg-dark-mode: #171c28;
+$grey-dark-mode: rgba(66, 66, 66, 0.712);
+$white-text: #fff;
+$primary:rgb(0, 132, 255);
+
+
+body.dark-mode {
+    background-color: $bg-dark-mode;
+    color: $white-text !important;
+    .card {
+      background-color: $grey-dark-mode;
+      box-shadow: none;
+    }
+}
