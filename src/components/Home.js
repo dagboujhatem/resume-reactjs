@@ -11,7 +11,7 @@ const Home = (props) =>{
 						<div className="banner_content">
 							<h3 className="text-uppercase">Hell0</h3>
 							<h1 className="text-uppercase">I am rahi satner</h1>
-							<h5 className="text-uppercase">senior wordpress developer</h5>
+							<h5 className="text-uppercase">senior full stack developer</h5>
 							<div className="d-flex align-items-center">
 								<a className="primary_btn" href="#"><span>Hire Me</span></a>
 								<a className="primary_btn tr-bg" href="#"><span>Get CV</span></a>

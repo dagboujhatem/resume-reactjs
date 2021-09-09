@@ -28,8 +28,7 @@ const Footer = (props) => {
 			</div>
 			<div className="row footer_bottom justify-content-center">
 				<p className="col-lg-8 col-sm-12 footer-text">
-					Copyright &copy; <span>{fullYear}</span> All rights reserved | This resume template is maded with React <i className="fa fa-heart-o" aria-hidden="true"></i> 
-					and developped by <a href="https://www.linkedin.com/in/dagbouj-hatem/" target="_blank"> DAGBOUJ Hatem</a>
+					Copyright &copy; <span>{fullYear}</span> All rights reserved | This resume template is maded with React <i className="fa fa-heart-o" aria-hidden="true"></i> and developped by <a href="https://www.linkedin.com/in/dagbouj-hatem/" target="_blank"> DAGBOUJ Hatem</a>
 				</p>
 			</div>
 		</div>
