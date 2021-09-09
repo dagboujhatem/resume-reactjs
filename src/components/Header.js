@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/img/logo.png';
 
-const Header = (propos)=>{
+const Header = (props)=>{
     return (
         <header className="header_area">
         <div className="main_menu">
