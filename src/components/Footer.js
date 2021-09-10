@@ -16,19 +16,19 @@ const Footer = (props) => {
 							<h4>Follow Me</h4>
 						</div>
 						<div className="footer_social">
-							<a href="https://www.facebook.com/hatem.dag.7127" target="_blank"><i className="fa fa-facebook"></i></a>
-							<a href="https://www.linkedin.com/in/dagbouj-hatem/" target="_blank"><i className="fa fa-linkedin"></i></a>
-							<a href="https://github.com/dagboujhatem" target="_blank"><i className="fa fa-github"></i></a>
-							<a href="https://gitlab.com/DagboujHatem" target="_blank"><i className="fa fa-gitlab"></i></a>
-							<a href="https://gitlab.com/DagboujHatem" target="_blank"><i className="fa fa-google"></i></a>
-							<a href="https://gitlab.com/DagboujHatem" target="_blank"><i className="fa fa-instagram"></i></a>
+							<a href="https://www.facebook.com/hatem.dag.7127" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+							<a href="https://www.linkedin.com/in/dagbouj-hatem/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
+							<a href="https://github.com/dagboujhatem" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
+							<a href="https://gitlab.com/DagboujHatem" target="_blank" rel="noopener noreferrer"><i className="fa fa-gitlab"></i></a>
+							<a href="https://gitlab.com/DagboujHatem" target="_blank" rel="noopener noreferrer"><i className="fa fa-google"></i></a>
+							<a href="https://gitlab.com/DagboujHatem" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div className="row footer_bottom justify-content-center">
 				<p className="col-12 footer-text">
-					Copyright &copy; <span>{fullYear}</span> All rights reserved | This resume template is maded with React <i className="fa fa-heart-o" aria-hidden="true"></i> and developped by <a href="https://www.linkedin.com/in/dagbouj-hatem/" target="_blank"> DAGBOUJ Hatem</a>
+					Copyright &copy; <span>{fullYear}</span> All rights reserved | This resume template is maded with React <i className="fa fa-heart-o" aria-hidden="true"></i> and developped by <a href="https://www.linkedin.com/in/dagbouj-hatem/" target="_blank" rel="noopener noreferrer"> DAGBOUJ Hatem</a>
 				</p>
 			</div>
 		</div>
