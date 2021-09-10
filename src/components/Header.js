@@ -56,11 +56,11 @@ const Header = (props) => {
                   </ul>
                 </li>
                 <li className="nav-item"><a className="nav-link" href="contact.html">Contact</a></li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <button className="btn btn-default btn-sm" onClick={handleChange}>
                     {themeState ? 'Light Mode' : 'Dark Mode'}
                   </button>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
