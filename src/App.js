@@ -17,6 +17,8 @@ import PortfolioDetails from './pages/PortfolioDetails';
 import Blog from './pages/Blog';
 import SingleBlog from './pages/SingleBlog';
 import Contact from './pages/Contact';
+// common imports
+import StartBannerArea from './common/StartBannerArea';
 
 const App = () => {
   return (
@@ -28,6 +30,7 @@ const App = () => {
         <Switch>
           <Route path="/contact">
             <Contact />
+            <StartBannerArea pageName="Contact Us" linkName="Contact" linkTo="/contact" />
           </Route>
           <Route path="/single-blog">
             <SingleBlog />
