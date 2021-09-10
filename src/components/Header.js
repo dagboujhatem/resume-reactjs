@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../assets/img/logo.png';
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
   const [themeState, setThemeState] = useState(false);
@@ -35,27 +36,45 @@ const Header = (props) => {
             </button>
             <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
               <ul className="nav navbar-nav menu_nav justify-content-end">
-                <li className="nav-item active"><a className="nav-link" href="index.html">Home</a></li>
-                <li className="nav-item"><a className="nav-link" href="about.html">About</a></li>
-                <li className="nav-item"><a className="nav-link" href="services.html">Services</a></li>
-                <li className="nav-item"><a className="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li className="nav-item active">
+                  <Link className="nav-link" to="/">Home</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/about">About</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/services">Services</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                </li>
                 <li className="nav-item submenu dropdown">
                   <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                     aria-expanded="false">Pages</a>
                   <ul className="dropdown-menu">
-                    <li className="nav-item"><a className="nav-link" href="elements.html">Elements</a></li>
-                    <li className="nav-item"><a className="nav-link" href="portfolio-details.html">Portfolio Details</a></li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/elements">Elements</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/portfolio-details">Portfolio Details</Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="nav-item submenu dropdown">
                   <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                     aria-expanded="false">Blog</a>
                   <ul className="dropdown-menu">
-                    <li className="nav-item"><a className="nav-link" href="blog.html">Blog</a></li>
-                    <li className="nav-item"><a className="nav-link" href="single-blog.html">Blog Details</a></li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/blog">Blog</Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/single-blog">Blog Details</Link>
+                    </li>
                   </ul>
                 </li>
-                <li className="nav-item"><a className="nav-link" href="contact.html">Contact</a></li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/contact">Contact</Link>
+                </li>
                 {/* <li className="nav-item">
                   <button className="btn btn-default btn-sm" onClick={handleChange}>
                     {themeState ? 'Light Mode' : 'Dark Mode'}
